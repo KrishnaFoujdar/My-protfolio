@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Krishna Foujdar Portfolio<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Krishna Foujdar Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Krishna</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section" data-aos="fade-up">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hi, I'm Krishna Foujdar — Web Developer</p>
+    </section>
+
+    <section id="about" class="section" data-aos="fade-right">
+      <h1>About Me</h1>
+      <p>I love building modern, animated, and responsive websites.</p>
+    </section>
+
+    <section id="projects" class="section" data-aos="zoom-in">
+      <h1>Projects</h1>
+      <div class="projects-container">
+        <div class="project-card" data-aos="fade-up">
+          <h3>Portfolio Website</h3>
+          <p>A modern portfolio with smooth animations and responsive design.</p>
+          <a href=""></a>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <h3>Quiz App</h3>
+          <p>Quiz app development using Html , Css and JavaScript."</p>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <h3>Todo App</h3>
+          <p>A simple yet powerful task management app with animations.</p>
+        </div>
+      </div>
+    </section>
+
+<section id="contact" class="section" data-aos="fade-left">
+  <h1>Contact Me</h1>
+  <form class="contact-form" action="#" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required data-aos="fade-up">
+    <input type="email" name="email" placeholder="Your Email" required data-aos="fade-up" data-aos-delay="100">
+    <textarea name="message" rows="5" placeholder="Your Message" required data-aos="fade-up" data-aos-delay="200"></textarea>
+    <button type="submit" data-aos="zoom-in" data-aos-delay="300">Send Message</button>
+  </form>
+</section>
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
