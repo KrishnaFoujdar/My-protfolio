@@ -13,6 +13,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+  <div id="loader"></div>
   <header>
     <nav class="navbar">
       <div class="logo">Krishna</div>
@@ -27,10 +28,15 @@
   </header>
 
   <main>
-    <section id="home" class="section" data-aos="fade-up">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Hi, I'm Krishna Foujdar — Web Developer</p>
-    </section>
+    <section id="home">
+  <div class="home-content">
+    <h1>Hi, I’m Krishna Foujdar</h1>
+    <p>Welcome to my portfolio</p>
+  </div>
+  <div class="home-image">
+  <img src="https://i.ibb.co/gbtVCG7z/20250307-154713-removebg-preview.png" alt="20250307-154713-removebg-preview" border="0">
+  </div>
+</section>
 
     <section id="about" class="section" data-aos="fade-right">
       <h1>About Me</h1>
@@ -66,7 +72,7 @@
   </form>
 </section>
   </main>
-
+<button id="backToTop" title="Back to Top">↑</button>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({ duration: 1000 });
