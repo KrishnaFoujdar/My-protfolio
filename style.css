@@ -160,15 +160,17 @@ header {
   width: 280px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.project-card a{ 
-  color:white;
-  text-decoration:none;
-  font-size:25px;
-  font-weight:600;
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #39ff14; /* Electric green */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
-.project-card a:hover{ 
-  text-decoration:underline;
-  
+
+.project-card a:hover {
+  color: white;
 }
 .project-card:hover {
   transform: translateY(-10px);
